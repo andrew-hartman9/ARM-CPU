@@ -1,0 +1,4426 @@
+# Reading C:/altera/14.0/modelsim_ase/tcl/vsim/pref.tcl 
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder_slice
+# 
+# Top level modules:
+# 	adder_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module all_zero
+# 
+# Top level modules:
+# 	all_zero
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu_slice
+# 
+# Top level modules:
+# 	alu_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF
+# 
+# Top level modules:
+# 	D_FF
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF_EN
+# 
+# Top level modules:
+# 	D_FF_EN
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module datamem
+# -- Compiling module datamem_testbench
+# 
+# Top level modules:
+# 	datamem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec2_4
+# 
+# Top level modules:
+# 	dec2_4
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec3_8
+# 
+# Top level modules:
+# 	dec3_8
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec5_32
+# 
+# Top level modules:
+# 	dec5_32
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module execution
+# 
+# Top level modules:
+# 	execution
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module hazard_controller
+# 
+# Top level modules:
+# 	hazard_controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_decode
+# 
+# Top level modules:
+# 	instruct_decode
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_fetch
+# 
+# Top level modules:
+# 	instruct_fetch
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instructmem
+# -- Compiling module instructmem_testbench
+# 
+# Top level modules:
+# 	instructmem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mult
+# -- Compiling module shifter
+# -- Compiling module shifter_testbench
+# -- Compiling module mult_testbench
+# 
+# Top level modules:
+# 	shifter_testbench
+# 	mult_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module memory
+# 
+# Top level modules:
+# 	memory
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	mux2_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux8_1
+# 
+# Top level modules:
+# 	mux8_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux32_1
+# 
+# Top level modules:
+# 	mux32_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module program_counter
+# 
+# Top level modules:
+# 	program_counter
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module sign_extender
+# 
+# Top level modules:
+# 	sign_extender
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module top
+# -- Compiling module top_testbench
+# 
+# Top level modules:
+# 	top_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module write_back
+# 
+# Top level modules:
+# 	write_back
+# vsim -lib work -voptargs=\"+acc\" -t 1ps top_testbench 
+# Loading sv_std.std
+# Loading work.top_testbench
+# Loading work.top
+# Loading work.hazard_controller
+# Loading work.instruct_fetch
+# Loading work.adder
+# Loading work.mux2_1
+# Loading work.program_counter
+# Loading work.instructmem
+# Loading work.instruct_decode
+# Loading work.sign_extender
+# Loading work.shifter
+# Loading work.regfile
+# Loading work.dec5_32
+# Loading work.dec2_4
+# Loading work.dec3_8
+# Loading work.mux32_1
+# Loading work.mux8_1
+# Loading work.controller
+# Loading work.D_FF_EN
+# Loading work.D_FF
+# Loading work.execution
+# Loading work.alu
+# Loading work.all_zero
+# Loading work.memory
+# Loading work.datamem
+# Loading work.write_back
+# Loading work.adder_slice
+# Loading work.register
+# Loading work.alu_slice
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Running benchmark: ./benchmarks/test10_forwarding.arm
+# Read
+# ** Error: Assertion error.
+#    Time: 750 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 850 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 950 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1050 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1150 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1250 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1750 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1850 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1950 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2050 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2150 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2250 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2450 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2950 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 3150 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 3350 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 3650 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 3950 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 4250 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 4850 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 5050 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 5150 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 5650 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 5850 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# Break in Module top_testbench at ./top.sv line 190
+# Simulation Breakpoint: Break in Module top_testbench at ./top.sv line 190
+# MACRO ./runlab.do PAUSED at line 52
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/Andrew Hartman/cse469/lab4/top_wave.do}
+ do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder_slice
+# 
+# Top level modules:
+# 	adder_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module all_zero
+# 
+# Top level modules:
+# 	all_zero
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu_slice
+# 
+# Top level modules:
+# 	alu_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF
+# 
+# Top level modules:
+# 	D_FF
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF_EN
+# 
+# Top level modules:
+# 	D_FF_EN
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module datamem
+# -- Compiling module datamem_testbench
+# 
+# Top level modules:
+# 	datamem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec2_4
+# 
+# Top level modules:
+# 	dec2_4
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec3_8
+# 
+# Top level modules:
+# 	dec3_8
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec5_32
+# 
+# Top level modules:
+# 	dec5_32
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module execution
+# 
+# Top level modules:
+# 	execution
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module hazard_controller
+# 
+# Top level modules:
+# 	hazard_controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_decode
+# 
+# Top level modules:
+# 	instruct_decode
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_fetch
+# 
+# Top level modules:
+# 	instruct_fetch
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instructmem
+# -- Compiling module instructmem_testbench
+# 
+# Top level modules:
+# 	instructmem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mult
+# -- Compiling module shifter
+# -- Compiling module shifter_testbench
+# -- Compiling module mult_testbench
+# 
+# Top level modules:
+# 	shifter_testbench
+# 	mult_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module memory
+# ** Error: ./memory.sv(5): near "input": syntax error, unexpected input, expecting ')'
+# ** Error: C:/altera/14.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab.do line 25
+# C:/altera/14.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./memory.sv""
+ do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder_slice
+# 
+# Top level modules:
+# 	adder_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module all_zero
+# 
+# Top level modules:
+# 	all_zero
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu_slice
+# 
+# Top level modules:
+# 	alu_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF
+# 
+# Top level modules:
+# 	D_FF
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF_EN
+# 
+# Top level modules:
+# 	D_FF_EN
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module datamem
+# -- Compiling module datamem_testbench
+# 
+# Top level modules:
+# 	datamem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec2_4
+# 
+# Top level modules:
+# 	dec2_4
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec3_8
+# 
+# Top level modules:
+# 	dec3_8
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec5_32
+# 
+# Top level modules:
+# 	dec5_32
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module execution
+# 
+# Top level modules:
+# 	execution
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module hazard_controller
+# 
+# Top level modules:
+# 	hazard_controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_decode
+# 
+# Top level modules:
+# 	instruct_decode
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_fetch
+# 
+# Top level modules:
+# 	instruct_fetch
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instructmem
+# -- Compiling module instructmem_testbench
+# 
+# Top level modules:
+# 	instructmem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mult
+# -- Compiling module shifter
+# -- Compiling module shifter_testbench
+# -- Compiling module mult_testbench
+# 
+# Top level modules:
+# 	shifter_testbench
+# 	mult_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module memory
+# 
+# Top level modules:
+# 	memory
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	mux2_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux8_1
+# 
+# Top level modules:
+# 	mux8_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux32_1
+# 
+# Top level modules:
+# 	mux32_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module program_counter
+# 
+# Top level modules:
+# 	program_counter
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module sign_extender
+# 
+# Top level modules:
+# 	sign_extender
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module top
+# -- Compiling module top_testbench
+# 
+# Top level modules:
+# 	top_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module write_back
+# 
+# Top level modules:
+# 	write_back
+# vsim -lib work -voptargs=\"+acc\" -t 1ps top_testbench 
+# Loading sv_std.std
+# Loading work.top_testbench
+# Loading work.top
+# Loading work.hazard_controller
+# Loading work.instruct_fetch
+# Loading work.adder
+# Loading work.mux2_1
+# Loading work.program_counter
+# Loading work.instructmem
+# Loading work.instruct_decode
+# Loading work.sign_extender
+# Loading work.shifter
+# Loading work.regfile
+# Loading work.dec5_32
+# Loading work.dec2_4
+# Loading work.dec3_8
+# Loading work.mux32_1
+# Loading work.mux8_1
+# Loading work.controller
+# Loading work.D_FF_EN
+# Loading work.D_FF
+# Loading work.execution
+# Loading work.alu
+# Loading work.all_zero
+# Loading work.memory
+# Loading work.datamem
+# Loading work.write_back
+# Loading work.adder_slice
+# Loading work.register
+# Loading work.alu_slice
+# ** Warning: (vsim-3015) ./top.sv(43): [PCDPC] - Port size (5 or 5) does not match connection size (64) for port 'ReadRegister2_EX_in'. The port definition is at: ./execution.sv(6).
+# 
+#         Region: /top_testbench/dut/execution
+# ** Error: (vish-4014) No objects found matching '/top_testbench/dut/instruct_decode/ReadRegister2_out'.
+# Executing ONERROR command at macro ./top_wave.do line 78
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Running benchmark: ./benchmarks/test10_forwarding.arm
+# Read
+# ** Error: Assertion error.
+#    Time: 750 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 850 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 950 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1050 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1150 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1250 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1750 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1850 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1950 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2050 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2150 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2250 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2450 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2950 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 3150 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 3350 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 3650 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 3950 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 4250 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 4850 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 5050 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 5150 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 5650 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 5850 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# Break in Module top_testbench at ./top.sv line 190
+# Simulation Breakpoint: Break in Module top_testbench at ./top.sv line 190
+# MACRO ./runlab.do PAUSED at line 52
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder_slice
+# 
+# Top level modules:
+# 	adder_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module all_zero
+# 
+# Top level modules:
+# 	all_zero
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu_slice
+# 
+# Top level modules:
+# 	alu_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF
+# 
+# Top level modules:
+# 	D_FF
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF_EN
+# 
+# Top level modules:
+# 	D_FF_EN
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module datamem
+# -- Compiling module datamem_testbench
+# 
+# Top level modules:
+# 	datamem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec2_4
+# 
+# Top level modules:
+# 	dec2_4
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec3_8
+# 
+# Top level modules:
+# 	dec3_8
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec5_32
+# 
+# Top level modules:
+# 	dec5_32
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module execution
+# 
+# Top level modules:
+# 	execution
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module hazard_controller
+# 
+# Top level modules:
+# 	hazard_controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_decode
+# 
+# Top level modules:
+# 	instruct_decode
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_fetch
+# 
+# Top level modules:
+# 	instruct_fetch
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instructmem
+# -- Compiling module instructmem_testbench
+# 
+# Top level modules:
+# 	instructmem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mult
+# -- Compiling module shifter
+# -- Compiling module shifter_testbench
+# -- Compiling module mult_testbench
+# 
+# Top level modules:
+# 	shifter_testbench
+# 	mult_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module memory
+# 
+# Top level modules:
+# 	memory
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	mux2_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux8_1
+# 
+# Top level modules:
+# 	mux8_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux32_1
+# 
+# Top level modules:
+# 	mux32_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module program_counter
+# 
+# Top level modules:
+# 	program_counter
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module sign_extender
+# 
+# Top level modules:
+# 	sign_extender
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module top
+# -- Compiling module top_testbench
+# 
+# Top level modules:
+# 	top_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module write_back
+# 
+# Top level modules:
+# 	write_back
+# vsim -lib work -voptargs=\"+acc\" -t 1ps top_testbench 
+# Loading sv_std.std
+# Loading work.top_testbench
+# Loading work.top
+# Loading work.hazard_controller
+# Loading work.instruct_fetch
+# Loading work.adder
+# Loading work.mux2_1
+# Loading work.program_counter
+# Loading work.instructmem
+# Loading work.instruct_decode
+# Loading work.sign_extender
+# Loading work.shifter
+# Loading work.regfile
+# Loading work.dec5_32
+# Loading work.dec2_4
+# Loading work.dec3_8
+# Loading work.mux32_1
+# Loading work.mux8_1
+# Loading work.controller
+# Loading work.D_FF_EN
+# Loading work.D_FF
+# Loading work.execution
+# Loading work.alu
+# Loading work.all_zero
+# Loading work.memory
+# Loading work.datamem
+# Loading work.write_back
+# Loading work.adder_slice
+# Loading work.register
+# Loading work.alu_slice
+# ** Warning: (vsim-3015) ./top.sv(43): [PCDPC] - Port size (5 or 5) does not match connection size (64) for port 'ReadRegister2_EX_in'. The port definition is at: ./execution.sv(6).
+# 
+#         Region: /top_testbench/dut/execution
+# ** Error: (vish-4014) No objects found matching '/top_testbench/dut/instruct_decode/ReadRegister2_out'.
+# Executing ONERROR command at macro ./top_wave.do line 78
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Running benchmark: ./benchmarks/test10_forwarding.arm
+# Read
+# ** Error: Assertion error.
+#    Time: 750 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 850 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 950 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1050 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1150 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1250 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1750 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1850 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1950 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2050 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2150 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2250 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2450 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2950 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 3150 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 3350 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 3650 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 3950 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 4250 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 4850 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 5050 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 5150 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 5650 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 5850 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# Break in Module top_testbench at ./top.sv line 190
+# Simulation Breakpoint: Break in Module top_testbench at ./top.sv line 190
+# MACRO ./runlab.do PAUSED at line 52
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder_slice
+# 
+# Top level modules:
+# 	adder_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module all_zero
+# 
+# Top level modules:
+# 	all_zero
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu_slice
+# 
+# Top level modules:
+# 	alu_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF
+# 
+# Top level modules:
+# 	D_FF
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF_EN
+# 
+# Top level modules:
+# 	D_FF_EN
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module datamem
+# -- Compiling module datamem_testbench
+# 
+# Top level modules:
+# 	datamem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec2_4
+# 
+# Top level modules:
+# 	dec2_4
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec3_8
+# 
+# Top level modules:
+# 	dec3_8
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec5_32
+# 
+# Top level modules:
+# 	dec5_32
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module execution
+# 
+# Top level modules:
+# 	execution
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module hazard_controller
+# 
+# Top level modules:
+# 	hazard_controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_decode
+# 
+# Top level modules:
+# 	instruct_decode
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_fetch
+# 
+# Top level modules:
+# 	instruct_fetch
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instructmem
+# -- Compiling module instructmem_testbench
+# 
+# Top level modules:
+# 	instructmem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mult
+# -- Compiling module shifter
+# -- Compiling module shifter_testbench
+# -- Compiling module mult_testbench
+# 
+# Top level modules:
+# 	shifter_testbench
+# 	mult_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module memory
+# 
+# Top level modules:
+# 	memory
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	mux2_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux8_1
+# 
+# Top level modules:
+# 	mux8_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux32_1
+# 
+# Top level modules:
+# 	mux32_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module program_counter
+# 
+# Top level modules:
+# 	program_counter
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module sign_extender
+# 
+# Top level modules:
+# 	sign_extender
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module top
+# -- Compiling module top_testbench
+# 
+# Top level modules:
+# 	top_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module write_back
+# 
+# Top level modules:
+# 	write_back
+# vsim -lib work -voptargs=\"+acc\" -t 1ps top_testbench 
+# Loading sv_std.std
+# Loading work.top_testbench
+# Loading work.top
+# Loading work.hazard_controller
+# Loading work.instruct_fetch
+# Loading work.adder
+# Loading work.mux2_1
+# Loading work.program_counter
+# Loading work.instructmem
+# Loading work.instruct_decode
+# Loading work.sign_extender
+# Loading work.shifter
+# Loading work.regfile
+# Loading work.dec5_32
+# Loading work.dec2_4
+# Loading work.dec3_8
+# Loading work.mux32_1
+# Loading work.mux8_1
+# Loading work.controller
+# Loading work.D_FF_EN
+# Loading work.D_FF
+# Loading work.execution
+# Loading work.alu
+# Loading work.all_zero
+# Loading work.memory
+# Loading work.datamem
+# Loading work.write_back
+# Loading work.adder_slice
+# Loading work.register
+# Loading work.alu_slice
+# ** Error: (vish-4014) No objects found matching '/top_testbench/dut/instruct_decode/ReadRegister2_out'.
+# Executing ONERROR command at macro ./top_wave.do line 78
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Running benchmark: ./benchmarks/test10_forwarding.arm
+# Read
+# ** Error: Assertion error.
+#    Time: 750 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 850 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 950 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1050 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1150 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1250 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1750 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1850 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1950 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2050 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2150 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2250 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2450 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2950 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 3150 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 3350 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 3650 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 3950 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 4250 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 4850 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 5050 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 5150 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 5650 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 5850 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# Break in Module top_testbench at ./top.sv line 190
+# Simulation Breakpoint: Break in Module top_testbench at ./top.sv line 190
+# MACRO ./runlab.do PAUSED at line 52
+add wave -position 92  sim:/top_testbench/dut/memory/clk
+add wave -position 92  sim:/top_testbench/dut/memory/reset
+add wave -position 92  sim:/top_testbench/dut/memory/write_enable_MEM_in
+add wave -position 92  sim:/top_testbench/dut/memory/RegWrite_MEM_in
+add wave -position 92  sim:/top_testbench/dut/memory/memtoreg_sel_MEM_in
+add wave -position 92  sim:/top_testbench/dut/memory/ld_fwd_sel
+add wave -position 92  sim:/top_testbench/dut/memory/st_fwd_sel
+add wave -position 92  sim:/top_testbench/dut/memory/WriteRegister_MEM_in
+add wave -position 92  sim:/top_testbench/dut/memory/ReadData2_MEM_in
+add wave -position 92  sim:/top_testbench/dut/memory/alu_result_MEM_in
+add wave -position 92  sim:/top_testbench/dut/memory/RegWrite_MEM_out
+add wave -position 92  sim:/top_testbench/dut/memory/memtoreg_sel_MEM_out
+add wave -position 92  sim:/top_testbench/dut/memory/WriteRegister_MEM_out
+add wave -position 92  sim:/top_testbench/dut/memory/alu_result_MEM_out
+add wave -position 92  sim:/top_testbench/dut/memory/mem_result_out
+add wave -position 92  sim:/top_testbench/dut/memory/mem_result
+add wave -position 92  sim:/top_testbench/dut/memory/mem_result_temp
+add wave -position 92  sim:/top_testbench/dut/memory/ReadData2_MEM_out
+add wave -position 92  sim:/top_testbench/dut/memory/write_data
+add wave -position 2  sim:/top_testbench/dut/hazard_controller/store
+add wave -position 2  sim:/top_testbench/dut/hazard_controller/ReadRegister_MEM
+add wave -position 2  sim:/top_testbench/dut/hazard_controller/ReadRegister2_in_UC
+add wave -position 2  sim:/top_testbench/dut/hazard_controller/ReadRegister1_in
+add wave -position 2  sim:/top_testbench/dut/hazard_controller/ReadRegister2_in
+add wave -position 2  sim:/top_testbench/dut/hazard_controller/WriteRegister_EX
+add wave -position 2  sim:/top_testbench/dut/hazard_controller/WriteRegister_MEM
+add wave -position 2  sim:/top_testbench/dut/hazard_controller/WriteRegister_WB
+add wave -position 2  sim:/top_testbench/dut/hazard_controller/ld_target
+add wave -position 2  sim:/top_testbench/dut/hazard_controller/st_target
+add wave -position 2  sim:/top_testbench/dut/hazard_controller/fwd_a_1_sel_out
+add wave -position 2  sim:/top_testbench/dut/hazard_controller/fwd_a_2_sel_out
+add wave -position 2  sim:/top_testbench/dut/hazard_controller/fwd_b_1_sel_out
+add wave -position 2  sim:/top_testbench/dut/hazard_controller/fwd_b_2_sel_out
+add wave -position 2  sim:/top_testbench/dut/hazard_controller/cbz_fwd
+add wave -position 2  sim:/top_testbench/dut/hazard_controller/ld_fwd_sel
+add wave -position 2  sim:/top_testbench/dut/hazard_controller/st_fwd_sel
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/Andrew Hartman/cse469/lab4/top_wave.do}
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder_slice
+# 
+# Top level modules:
+# 	adder_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module all_zero
+# 
+# Top level modules:
+# 	all_zero
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu_slice
+# 
+# Top level modules:
+# 	alu_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF
+# 
+# Top level modules:
+# 	D_FF
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF_EN
+# 
+# Top level modules:
+# 	D_FF_EN
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module datamem
+# -- Compiling module datamem_testbench
+# 
+# Top level modules:
+# 	datamem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec2_4
+# 
+# Top level modules:
+# 	dec2_4
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec3_8
+# 
+# Top level modules:
+# 	dec3_8
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec5_32
+# 
+# Top level modules:
+# 	dec5_32
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module execution
+# 
+# Top level modules:
+# 	execution
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module hazard_controller
+# 
+# Top level modules:
+# 	hazard_controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_decode
+# 
+# Top level modules:
+# 	instruct_decode
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_fetch
+# 
+# Top level modules:
+# 	instruct_fetch
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instructmem
+# -- Compiling module instructmem_testbench
+# 
+# Top level modules:
+# 	instructmem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mult
+# -- Compiling module shifter
+# -- Compiling module shifter_testbench
+# -- Compiling module mult_testbench
+# 
+# Top level modules:
+# 	shifter_testbench
+# 	mult_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module memory
+# 
+# Top level modules:
+# 	memory
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	mux2_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux8_1
+# 
+# Top level modules:
+# 	mux8_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux32_1
+# 
+# Top level modules:
+# 	mux32_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module program_counter
+# 
+# Top level modules:
+# 	program_counter
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module sign_extender
+# 
+# Top level modules:
+# 	sign_extender
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module top
+# -- Compiling module top_testbench
+# 
+# Top level modules:
+# 	top_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module write_back
+# 
+# Top level modules:
+# 	write_back
+# vsim -lib work -voptargs=\"+acc\" -t 1ps top_testbench 
+# Loading sv_std.std
+# Loading work.top_testbench
+# Loading work.top
+# Loading work.hazard_controller
+# Loading work.instruct_fetch
+# Loading work.adder
+# Loading work.mux2_1
+# Loading work.program_counter
+# Loading work.instructmem
+# Loading work.instruct_decode
+# Loading work.sign_extender
+# Loading work.shifter
+# Loading work.regfile
+# Loading work.dec5_32
+# Loading work.dec2_4
+# Loading work.dec3_8
+# Loading work.mux32_1
+# Loading work.mux8_1
+# Loading work.controller
+# Loading work.D_FF_EN
+# Loading work.D_FF
+# Loading work.execution
+# Loading work.alu
+# Loading work.all_zero
+# Loading work.memory
+# Loading work.datamem
+# Loading work.write_back
+# Loading work.adder_slice
+# Loading work.register
+# Loading work.alu_slice
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Running benchmark: ./benchmarks/test10_forwarding.arm
+# Read
+# ** Error: Assertion error.
+#    Time: 750 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 850 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 950 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1050 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1150 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1250 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1750 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1850 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1950 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2050 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2150 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2250 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2450 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2950 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 3150 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 3350 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 3650 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 3950 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 4250 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 4850 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 5050 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 5150 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 5650 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 5850 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# Break in Module top_testbench at ./top.sv line 190
+# Simulation Breakpoint: Break in Module top_testbench at ./top.sv line 190
+# MACRO ./runlab.do PAUSED at line 52
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/Andrew Hartman/cse469/lab4/top_wave.do}
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder_slice
+# 
+# Top level modules:
+# 	adder_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module all_zero
+# 
+# Top level modules:
+# 	all_zero
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu_slice
+# 
+# Top level modules:
+# 	alu_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF
+# 
+# Top level modules:
+# 	D_FF
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF_EN
+# 
+# Top level modules:
+# 	D_FF_EN
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module datamem
+# -- Compiling module datamem_testbench
+# 
+# Top level modules:
+# 	datamem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec2_4
+# 
+# Top level modules:
+# 	dec2_4
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec3_8
+# 
+# Top level modules:
+# 	dec3_8
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec5_32
+# 
+# Top level modules:
+# 	dec5_32
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module execution
+# 
+# Top level modules:
+# 	execution
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module hazard_controller
+# 
+# Top level modules:
+# 	hazard_controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_decode
+# 
+# Top level modules:
+# 	instruct_decode
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_fetch
+# 
+# Top level modules:
+# 	instruct_fetch
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instructmem
+# -- Compiling module instructmem_testbench
+# 
+# Top level modules:
+# 	instructmem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mult
+# -- Compiling module shifter
+# -- Compiling module shifter_testbench
+# -- Compiling module mult_testbench
+# 
+# Top level modules:
+# 	shifter_testbench
+# 	mult_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module memory
+# 
+# Top level modules:
+# 	memory
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	mux2_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux8_1
+# 
+# Top level modules:
+# 	mux8_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux32_1
+# 
+# Top level modules:
+# 	mux32_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module program_counter
+# 
+# Top level modules:
+# 	program_counter
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module sign_extender
+# 
+# Top level modules:
+# 	sign_extender
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module top
+# -- Compiling module top_testbench
+# 
+# Top level modules:
+# 	top_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module write_back
+# 
+# Top level modules:
+# 	write_back
+# vsim -lib work -voptargs=\"+acc\" -t 1ps top_testbench 
+# Loading sv_std.std
+# Loading work.top_testbench
+# Loading work.top
+# Loading work.hazard_controller
+# Loading work.instruct_fetch
+# Loading work.adder
+# Loading work.mux2_1
+# Loading work.program_counter
+# Loading work.instructmem
+# Loading work.instruct_decode
+# Loading work.sign_extender
+# Loading work.shifter
+# Loading work.regfile
+# Loading work.dec5_32
+# Loading work.dec2_4
+# Loading work.dec3_8
+# Loading work.mux32_1
+# Loading work.mux8_1
+# Loading work.controller
+# Loading work.D_FF_EN
+# Loading work.D_FF
+# Loading work.execution
+# Loading work.alu
+# Loading work.all_zero
+# Loading work.memory
+# Loading work.datamem
+# Loading work.write_back
+# Loading work.adder_slice
+# Loading work.register
+# Loading work.alu_slice
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Running benchmark: ./benchmarks/test10_forwarding.arm
+# Read
+# ** Error: Assertion error.
+#    Time: 750 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 850 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 950 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1050 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1150 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1250 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1750 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1850 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1950 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2050 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2150 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2250 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2450 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2950 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 3150 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 3350 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 3650 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 3950 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 4250 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 4850 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 5050 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 5150 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 5650 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 5850 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# Break in Module top_testbench at ./top.sv line 190
+# Simulation Breakpoint: Break in Module top_testbench at ./top.sv line 190
+# MACRO ./runlab.do PAUSED at line 52
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder_slice
+# 
+# Top level modules:
+# 	adder_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module all_zero
+# 
+# Top level modules:
+# 	all_zero
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu_slice
+# 
+# Top level modules:
+# 	alu_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF
+# 
+# Top level modules:
+# 	D_FF
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF_EN
+# 
+# Top level modules:
+# 	D_FF_EN
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module datamem
+# -- Compiling module datamem_testbench
+# 
+# Top level modules:
+# 	datamem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec2_4
+# 
+# Top level modules:
+# 	dec2_4
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec3_8
+# 
+# Top level modules:
+# 	dec3_8
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec5_32
+# 
+# Top level modules:
+# 	dec5_32
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module execution
+# 
+# Top level modules:
+# 	execution
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module hazard_controller
+# 
+# Top level modules:
+# 	hazard_controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_decode
+# 
+# Top level modules:
+# 	instruct_decode
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_fetch
+# 
+# Top level modules:
+# 	instruct_fetch
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instructmem
+# -- Compiling module instructmem_testbench
+# 
+# Top level modules:
+# 	instructmem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mult
+# -- Compiling module shifter
+# -- Compiling module shifter_testbench
+# -- Compiling module mult_testbench
+# 
+# Top level modules:
+# 	shifter_testbench
+# 	mult_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module memory
+# 
+# Top level modules:
+# 	memory
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	mux2_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux8_1
+# 
+# Top level modules:
+# 	mux8_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux32_1
+# 
+# Top level modules:
+# 	mux32_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module program_counter
+# 
+# Top level modules:
+# 	program_counter
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module sign_extender
+# 
+# Top level modules:
+# 	sign_extender
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module top
+# -- Compiling module top_testbench
+# 
+# Top level modules:
+# 	top_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module write_back
+# 
+# Top level modules:
+# 	write_back
+# vsim -lib work -voptargs=\"+acc\" -t 1ps top_testbench 
+# Loading sv_std.std
+# Loading work.top_testbench
+# Loading work.top
+# Loading work.hazard_controller
+# Loading work.instruct_fetch
+# Loading work.adder
+# Loading work.mux2_1
+# Loading work.program_counter
+# Loading work.instructmem
+# Loading work.instruct_decode
+# Loading work.sign_extender
+# Loading work.shifter
+# Loading work.regfile
+# Loading work.dec5_32
+# Loading work.dec2_4
+# Loading work.dec3_8
+# Loading work.mux32_1
+# Loading work.mux8_1
+# Loading work.controller
+# Loading work.D_FF_EN
+# Loading work.D_FF
+# Loading work.execution
+# Loading work.alu
+# Loading work.all_zero
+# Loading work.memory
+# Loading work.datamem
+# Loading work.write_back
+# Loading work.adder_slice
+# Loading work.register
+# Loading work.alu_slice
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Running benchmark: ./benchmarks/test12_Fibonacci.arm
+# Read
+# ** Error: Assertion error.
+#    Time: 450 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 750 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 850 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 950 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1150 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1850 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2450 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2550 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2850 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 3450 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 3550 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 3850 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 4250 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 5550 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 6550 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 6650 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 6950 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 7350 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 8650 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 9050 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 9450 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# Break in Module top_testbench at ./top.sv line 190
+# Simulation Breakpoint: Break in Module top_testbench at ./top.sv line 190
+# MACRO ./runlab.do PAUSED at line 52
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/Andrew Hartman/cse469/lab4/top_wave.do}
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder_slice
+# 
+# Top level modules:
+# 	adder_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module all_zero
+# 
+# Top level modules:
+# 	all_zero
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu_slice
+# 
+# Top level modules:
+# 	alu_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF
+# 
+# Top level modules:
+# 	D_FF
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF_EN
+# 
+# Top level modules:
+# 	D_FF_EN
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module datamem
+# -- Compiling module datamem_testbench
+# 
+# Top level modules:
+# 	datamem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec2_4
+# 
+# Top level modules:
+# 	dec2_4
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec3_8
+# 
+# Top level modules:
+# 	dec3_8
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec5_32
+# 
+# Top level modules:
+# 	dec5_32
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module execution
+# 
+# Top level modules:
+# 	execution
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module hazard_controller
+# 
+# Top level modules:
+# 	hazard_controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_decode
+# 
+# Top level modules:
+# 	instruct_decode
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_fetch
+# 
+# Top level modules:
+# 	instruct_fetch
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instructmem
+# -- Compiling module instructmem_testbench
+# 
+# Top level modules:
+# 	instructmem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mult
+# -- Compiling module shifter
+# -- Compiling module shifter_testbench
+# -- Compiling module mult_testbench
+# 
+# Top level modules:
+# 	shifter_testbench
+# 	mult_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module memory
+# 
+# Top level modules:
+# 	memory
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	mux2_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux8_1
+# 
+# Top level modules:
+# 	mux8_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux32_1
+# 
+# Top level modules:
+# 	mux32_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module program_counter
+# 
+# Top level modules:
+# 	program_counter
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module sign_extender
+# 
+# Top level modules:
+# 	sign_extender
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module top
+# -- Compiling module top_testbench
+# 
+# Top level modules:
+# 	top_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module write_back
+# 
+# Top level modules:
+# 	write_back
+# vsim -lib work -voptargs=\"+acc\" -t 1ps top_testbench 
+# Loading sv_std.std
+# Loading work.top_testbench
+# Loading work.top
+# Loading work.hazard_controller
+# Loading work.instruct_fetch
+# Loading work.adder
+# Loading work.mux2_1
+# Loading work.program_counter
+# Loading work.instructmem
+# Loading work.instruct_decode
+# Loading work.sign_extender
+# Loading work.shifter
+# Loading work.regfile
+# Loading work.dec5_32
+# Loading work.dec2_4
+# Loading work.dec3_8
+# Loading work.mux32_1
+# Loading work.mux8_1
+# Loading work.controller
+# Loading work.D_FF_EN
+# Loading work.D_FF
+# Loading work.execution
+# Loading work.alu
+# Loading work.all_zero
+# Loading work.memory
+# Loading work.datamem
+# Loading work.write_back
+# Loading work.adder_slice
+# Loading work.register
+# Loading work.alu_slice
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Running benchmark: ./benchmarks/test01_AddiB.arm
+# Read
+# ** Error: Assertion error.
+#    Time: 550 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 650 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 750 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 850 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# Break in Module top_testbench at ./top.sv line 190
+# Simulation Breakpoint: Break in Module top_testbench at ./top.sv line 190
+# MACRO ./runlab.do PAUSED at line 52
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder_slice
+# 
+# Top level modules:
+# 	adder_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module all_zero
+# 
+# Top level modules:
+# 	all_zero
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu_slice
+# 
+# Top level modules:
+# 	alu_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF
+# 
+# Top level modules:
+# 	D_FF
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF_EN
+# 
+# Top level modules:
+# 	D_FF_EN
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module datamem
+# -- Compiling module datamem_testbench
+# 
+# Top level modules:
+# 	datamem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec2_4
+# 
+# Top level modules:
+# 	dec2_4
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec3_8
+# 
+# Top level modules:
+# 	dec3_8
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec5_32
+# 
+# Top level modules:
+# 	dec5_32
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module execution
+# 
+# Top level modules:
+# 	execution
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module hazard_controller
+# 
+# Top level modules:
+# 	hazard_controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_decode
+# 
+# Top level modules:
+# 	instruct_decode
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_fetch
+# 
+# Top level modules:
+# 	instruct_fetch
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instructmem
+# -- Compiling module instructmem_testbench
+# 
+# Top level modules:
+# 	instructmem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mult
+# -- Compiling module shifter
+# -- Compiling module shifter_testbench
+# -- Compiling module mult_testbench
+# 
+# Top level modules:
+# 	shifter_testbench
+# 	mult_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module memory
+# 
+# Top level modules:
+# 	memory
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	mux2_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux8_1
+# 
+# Top level modules:
+# 	mux8_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux32_1
+# 
+# Top level modules:
+# 	mux32_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module program_counter
+# 
+# Top level modules:
+# 	program_counter
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module sign_extender
+# 
+# Top level modules:
+# 	sign_extender
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module top
+# -- Compiling module top_testbench
+# 
+# Top level modules:
+# 	top_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module write_back
+# 
+# Top level modules:
+# 	write_back
+# vsim -lib work -voptargs=\"+acc\" -t 1ps top_testbench 
+# Loading sv_std.std
+# Loading work.top_testbench
+# Loading work.top
+# Loading work.hazard_controller
+# Loading work.instruct_fetch
+# Loading work.adder
+# Loading work.mux2_1
+# Loading work.program_counter
+# Loading work.instructmem
+# Loading work.instruct_decode
+# Loading work.sign_extender
+# Loading work.shifter
+# Loading work.regfile
+# Loading work.dec5_32
+# Loading work.dec2_4
+# Loading work.dec3_8
+# Loading work.mux32_1
+# Loading work.mux8_1
+# Loading work.controller
+# Loading work.D_FF_EN
+# Loading work.D_FF
+# Loading work.execution
+# Loading work.alu
+# Loading work.all_zero
+# Loading work.memory
+# Loading work.datamem
+# Loading work.write_back
+# Loading work.adder_slice
+# Loading work.register
+# Loading work.alu_slice
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Running benchmark: ./benchmarks/test02_AddsSubs.arm
+# Read
+# ** Error: Assertion error.
+#    Time: 450 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 550 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 650 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 750 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 850 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 950 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1150 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# Break in Module top_testbench at ./top.sv line 190
+# Simulation Breakpoint: Break in Module top_testbench at ./top.sv line 190
+# MACRO ./runlab.do PAUSED at line 52
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/Andrew Hartman/cse469/lab4/top_wave.do}
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder_slice
+# 
+# Top level modules:
+# 	adder_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module all_zero
+# 
+# Top level modules:
+# 	all_zero
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu_slice
+# 
+# Top level modules:
+# 	alu_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF
+# 
+# Top level modules:
+# 	D_FF
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF_EN
+# 
+# Top level modules:
+# 	D_FF_EN
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module datamem
+# -- Compiling module datamem_testbench
+# 
+# Top level modules:
+# 	datamem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec2_4
+# 
+# Top level modules:
+# 	dec2_4
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec3_8
+# 
+# Top level modules:
+# 	dec3_8
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec5_32
+# 
+# Top level modules:
+# 	dec5_32
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module execution
+# 
+# Top level modules:
+# 	execution
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module hazard_controller
+# 
+# Top level modules:
+# 	hazard_controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_decode
+# 
+# Top level modules:
+# 	instruct_decode
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_fetch
+# 
+# Top level modules:
+# 	instruct_fetch
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instructmem
+# -- Compiling module instructmem_testbench
+# 
+# Top level modules:
+# 	instructmem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mult
+# -- Compiling module shifter
+# -- Compiling module shifter_testbench
+# -- Compiling module mult_testbench
+# 
+# Top level modules:
+# 	shifter_testbench
+# 	mult_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module memory
+# 
+# Top level modules:
+# 	memory
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	mux2_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux8_1
+# 
+# Top level modules:
+# 	mux8_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux32_1
+# 
+# Top level modules:
+# 	mux32_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module program_counter
+# 
+# Top level modules:
+# 	program_counter
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module sign_extender
+# 
+# Top level modules:
+# 	sign_extender
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module top
+# -- Compiling module top_testbench
+# 
+# Top level modules:
+# 	top_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module write_back
+# 
+# Top level modules:
+# 	write_back
+# vsim -lib work -voptargs=\"+acc\" -t 1ps top_testbench 
+# Loading sv_std.std
+# Loading work.top_testbench
+# Loading work.top
+# Loading work.hazard_controller
+# Loading work.instruct_fetch
+# Loading work.adder
+# Loading work.mux2_1
+# Loading work.program_counter
+# Loading work.instructmem
+# Loading work.instruct_decode
+# Loading work.sign_extender
+# Loading work.shifter
+# Loading work.regfile
+# Loading work.dec5_32
+# Loading work.dec2_4
+# Loading work.dec3_8
+# Loading work.mux32_1
+# Loading work.mux8_1
+# Loading work.controller
+# Loading work.D_FF_EN
+# Loading work.D_FF
+# Loading work.execution
+# Loading work.alu
+# Loading work.all_zero
+# Loading work.memory
+# Loading work.datamem
+# Loading work.write_back
+# Loading work.adder_slice
+# Loading work.register
+# Loading work.alu_slice
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Running benchmark: ./benchmarks/test03_CbzB.arm
+# Read
+# ** Error: Assertion error.
+#    Time: 450 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1150 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1350 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1550 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1750 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1950 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2150 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2350 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2550 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2850 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2950 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# Break in Module top_testbench at ./top.sv line 190
+# Simulation Breakpoint: Break in Module top_testbench at ./top.sv line 190
+# MACRO ./runlab.do PAUSED at line 52
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder_slice
+# 
+# Top level modules:
+# 	adder_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module all_zero
+# 
+# Top level modules:
+# 	all_zero
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu_slice
+# 
+# Top level modules:
+# 	alu_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF
+# 
+# Top level modules:
+# 	D_FF
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF_EN
+# 
+# Top level modules:
+# 	D_FF_EN
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module datamem
+# -- Compiling module datamem_testbench
+# 
+# Top level modules:
+# 	datamem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec2_4
+# 
+# Top level modules:
+# 	dec2_4
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec3_8
+# 
+# Top level modules:
+# 	dec3_8
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec5_32
+# 
+# Top level modules:
+# 	dec5_32
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module execution
+# 
+# Top level modules:
+# 	execution
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module hazard_controller
+# 
+# Top level modules:
+# 	hazard_controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_decode
+# 
+# Top level modules:
+# 	instruct_decode
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_fetch
+# 
+# Top level modules:
+# 	instruct_fetch
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instructmem
+# -- Compiling module instructmem_testbench
+# 
+# Top level modules:
+# 	instructmem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mult
+# -- Compiling module shifter
+# -- Compiling module shifter_testbench
+# -- Compiling module mult_testbench
+# 
+# Top level modules:
+# 	shifter_testbench
+# 	mult_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module memory
+# 
+# Top level modules:
+# 	memory
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	mux2_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux8_1
+# 
+# Top level modules:
+# 	mux8_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux32_1
+# 
+# Top level modules:
+# 	mux32_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module program_counter
+# 
+# Top level modules:
+# 	program_counter
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module sign_extender
+# 
+# Top level modules:
+# 	sign_extender
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module top
+# -- Compiling module top_testbench
+# 
+# Top level modules:
+# 	top_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module write_back
+# 
+# Top level modules:
+# 	write_back
+# vsim -lib work -voptargs=\"+acc\" -t 1ps top_testbench 
+# Loading sv_std.std
+# Loading work.top_testbench
+# Loading work.top
+# Loading work.hazard_controller
+# Loading work.instruct_fetch
+# Loading work.adder
+# Loading work.mux2_1
+# Loading work.program_counter
+# Loading work.instructmem
+# Loading work.instruct_decode
+# Loading work.sign_extender
+# Loading work.shifter
+# Loading work.regfile
+# Loading work.dec5_32
+# Loading work.dec2_4
+# Loading work.dec3_8
+# Loading work.mux32_1
+# Loading work.mux8_1
+# Loading work.controller
+# Loading work.D_FF_EN
+# Loading work.D_FF
+# Loading work.execution
+# Loading work.alu
+# Loading work.all_zero
+# Loading work.memory
+# Loading work.datamem
+# Loading work.write_back
+# Loading work.adder_slice
+# Loading work.register
+# Loading work.alu_slice
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Running benchmark: ./benchmarks/test04_LdurStur.arm
+# Read
+# ** Error: Assertion error.
+#    Time: 450 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 550 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 650 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 850 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# Break in Module top_testbench at ./top.sv line 190
+# Simulation Breakpoint: Break in Module top_testbench at ./top.sv line 190
+# MACRO ./runlab.do PAUSED at line 52
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder_slice
+# 
+# Top level modules:
+# 	adder_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module all_zero
+# 
+# Top level modules:
+# 	all_zero
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu_slice
+# 
+# Top level modules:
+# 	alu_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF
+# 
+# Top level modules:
+# 	D_FF
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF_EN
+# 
+# Top level modules:
+# 	D_FF_EN
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module datamem
+# -- Compiling module datamem_testbench
+# 
+# Top level modules:
+# 	datamem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec2_4
+# 
+# Top level modules:
+# 	dec2_4
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec3_8
+# 
+# Top level modules:
+# 	dec3_8
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec5_32
+# 
+# Top level modules:
+# 	dec5_32
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module execution
+# 
+# Top level modules:
+# 	execution
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module hazard_controller
+# 
+# Top level modules:
+# 	hazard_controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_decode
+# 
+# Top level modules:
+# 	instruct_decode
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_fetch
+# 
+# Top level modules:
+# 	instruct_fetch
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instructmem
+# -- Compiling module instructmem_testbench
+# 
+# Top level modules:
+# 	instructmem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mult
+# -- Compiling module shifter
+# -- Compiling module shifter_testbench
+# -- Compiling module mult_testbench
+# 
+# Top level modules:
+# 	shifter_testbench
+# 	mult_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module memory
+# 
+# Top level modules:
+# 	memory
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	mux2_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux8_1
+# 
+# Top level modules:
+# 	mux8_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux32_1
+# 
+# Top level modules:
+# 	mux32_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module program_counter
+# 
+# Top level modules:
+# 	program_counter
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module sign_extender
+# 
+# Top level modules:
+# 	sign_extender
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module top
+# -- Compiling module top_testbench
+# 
+# Top level modules:
+# 	top_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module write_back
+# 
+# Top level modules:
+# 	write_back
+# vsim -lib work -voptargs=\"+acc\" -t 1ps top_testbench 
+# Loading sv_std.std
+# Loading work.top_testbench
+# Loading work.top
+# Loading work.hazard_controller
+# Loading work.instruct_fetch
+# Loading work.adder
+# Loading work.mux2_1
+# Loading work.program_counter
+# Loading work.instructmem
+# Loading work.instruct_decode
+# Loading work.sign_extender
+# Loading work.shifter
+# Loading work.regfile
+# Loading work.dec5_32
+# Loading work.dec2_4
+# Loading work.dec3_8
+# Loading work.mux32_1
+# Loading work.mux8_1
+# Loading work.controller
+# Loading work.D_FF_EN
+# Loading work.D_FF
+# Loading work.execution
+# Loading work.alu
+# Loading work.all_zero
+# Loading work.memory
+# Loading work.datamem
+# Loading work.write_back
+# Loading work.adder_slice
+# Loading work.register
+# Loading work.alu_slice
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Running benchmark: ./benchmarks/test05_Blt.arm
+# Read
+# ** Error: Assertion error.
+#    Time: 450 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 950 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1250 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1650 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# Break in Module top_testbench at ./top.sv line 190
+# Simulation Breakpoint: Break in Module top_testbench at ./top.sv line 190
+# MACRO ./runlab.do PAUSED at line 52
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder_slice
+# 
+# Top level modules:
+# 	adder_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module all_zero
+# 
+# Top level modules:
+# 	all_zero
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu_slice
+# 
+# Top level modules:
+# 	alu_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF
+# 
+# Top level modules:
+# 	D_FF
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF_EN
+# 
+# Top level modules:
+# 	D_FF_EN
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module datamem
+# -- Compiling module datamem_testbench
+# 
+# Top level modules:
+# 	datamem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec2_4
+# 
+# Top level modules:
+# 	dec2_4
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec3_8
+# 
+# Top level modules:
+# 	dec3_8
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec5_32
+# 
+# Top level modules:
+# 	dec5_32
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module execution
+# 
+# Top level modules:
+# 	execution
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module hazard_controller
+# 
+# Top level modules:
+# 	hazard_controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_decode
+# 
+# Top level modules:
+# 	instruct_decode
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_fetch
+# 
+# Top level modules:
+# 	instruct_fetch
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instructmem
+# -- Compiling module instructmem_testbench
+# 
+# Top level modules:
+# 	instructmem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mult
+# -- Compiling module shifter
+# -- Compiling module shifter_testbench
+# -- Compiling module mult_testbench
+# 
+# Top level modules:
+# 	shifter_testbench
+# 	mult_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module memory
+# 
+# Top level modules:
+# 	memory
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	mux2_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux8_1
+# 
+# Top level modules:
+# 	mux8_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux32_1
+# 
+# Top level modules:
+# 	mux32_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module program_counter
+# 
+# Top level modules:
+# 	program_counter
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module sign_extender
+# 
+# Top level modules:
+# 	sign_extender
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module top
+# -- Compiling module top_testbench
+# 
+# Top level modules:
+# 	top_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module write_back
+# 
+# Top level modules:
+# 	write_back
+# vsim -lib work -voptargs=\"+acc\" -t 1ps top_testbench 
+# Loading sv_std.std
+# Loading work.top_testbench
+# Loading work.top
+# Loading work.hazard_controller
+# Loading work.instruct_fetch
+# Loading work.adder
+# Loading work.mux2_1
+# Loading work.program_counter
+# Loading work.instructmem
+# Loading work.instruct_decode
+# Loading work.sign_extender
+# Loading work.shifter
+# Loading work.regfile
+# Loading work.dec5_32
+# Loading work.dec2_4
+# Loading work.dec3_8
+# Loading work.mux32_1
+# Loading work.mux8_1
+# Loading work.controller
+# Loading work.D_FF_EN
+# Loading work.D_FF
+# Loading work.execution
+# Loading work.alu
+# Loading work.all_zero
+# Loading work.memory
+# Loading work.datamem
+# Loading work.write_back
+# Loading work.adder_slice
+# Loading work.register
+# Loading work.alu_slice
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Running benchmark: ./benchmarks/test06_BlBr.arm
+# Read
+# ** Error: Assertion error.
+#    Time: 450 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 850 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 950 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1150 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1650 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2350 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2650 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# Break in Module top_testbench at ./top.sv line 190
+# Simulation Breakpoint: Break in Module top_testbench at ./top.sv line 190
+# MACRO ./runlab.do PAUSED at line 52
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder_slice
+# 
+# Top level modules:
+# 	adder_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module all_zero
+# 
+# Top level modules:
+# 	all_zero
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu_slice
+# 
+# Top level modules:
+# 	alu_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF
+# 
+# Top level modules:
+# 	D_FF
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF_EN
+# 
+# Top level modules:
+# 	D_FF_EN
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module datamem
+# -- Compiling module datamem_testbench
+# 
+# Top level modules:
+# 	datamem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec2_4
+# 
+# Top level modules:
+# 	dec2_4
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec3_8
+# 
+# Top level modules:
+# 	dec3_8
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec5_32
+# 
+# Top level modules:
+# 	dec5_32
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module execution
+# 
+# Top level modules:
+# 	execution
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module hazard_controller
+# 
+# Top level modules:
+# 	hazard_controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_decode
+# 
+# Top level modules:
+# 	instruct_decode
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_fetch
+# 
+# Top level modules:
+# 	instruct_fetch
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instructmem
+# -- Compiling module instructmem_testbench
+# 
+# Top level modules:
+# 	instructmem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mult
+# -- Compiling module shifter
+# -- Compiling module shifter_testbench
+# -- Compiling module mult_testbench
+# 
+# Top level modules:
+# 	shifter_testbench
+# 	mult_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module memory
+# 
+# Top level modules:
+# 	memory
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	mux2_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux8_1
+# 
+# Top level modules:
+# 	mux8_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux32_1
+# 
+# Top level modules:
+# 	mux32_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module program_counter
+# 
+# Top level modules:
+# 	program_counter
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module sign_extender
+# 
+# Top level modules:
+# 	sign_extender
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module top
+# -- Compiling module top_testbench
+# 
+# Top level modules:
+# 	top_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module write_back
+# 
+# Top level modules:
+# 	write_back
+# vsim -lib work -voptargs=\"+acc\" -t 1ps top_testbench 
+# Loading sv_std.std
+# Loading work.top_testbench
+# Loading work.top
+# Loading work.hazard_controller
+# Loading work.instruct_fetch
+# Loading work.adder
+# Loading work.mux2_1
+# Loading work.program_counter
+# Loading work.instructmem
+# Loading work.instruct_decode
+# Loading work.sign_extender
+# Loading work.shifter
+# Loading work.regfile
+# Loading work.dec5_32
+# Loading work.dec2_4
+# Loading work.dec3_8
+# Loading work.mux32_1
+# Loading work.mux8_1
+# Loading work.controller
+# Loading work.D_FF_EN
+# Loading work.D_FF
+# Loading work.execution
+# Loading work.alu
+# Loading work.all_zero
+# Loading work.memory
+# Loading work.datamem
+# Loading work.write_back
+# Loading work.adder_slice
+# Loading work.register
+# Loading work.alu_slice
+# ** Error: (vish-4014) No objects found matching '/top_testbench/dut/hazard_controller/ld_fwd_sel'.
+# Executing ONERROR command at macro ./top_wave.do line 20
+# ** Error: (vish-4014) No objects found matching '/top_testbench/dut/memory/ld_fwd_sel'.
+# Executing ONERROR command at macro ./top_wave.do line 151
+# ** Error: (vish-4014) No objects found matching '/top_testbench/dut/memory/mem_result_temp'.
+# Executing ONERROR command at macro ./top_wave.do line 162
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Running benchmark: ./benchmarks/test01_AddiB.arm
+# Read
+# ** Error: Assertion error.
+#    Time: 550 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 650 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 750 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 850 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# Break in Module top_testbench at ./top.sv line 234
+# Simulation Breakpoint: Break in Module top_testbench at ./top.sv line 234
+# MACRO ./runlab.do PAUSED at line 52
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder_slice
+# 
+# Top level modules:
+# 	adder_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module all_zero
+# 
+# Top level modules:
+# 	all_zero
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu_slice
+# 
+# Top level modules:
+# 	alu_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF
+# 
+# Top level modules:
+# 	D_FF
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF_EN
+# 
+# Top level modules:
+# 	D_FF_EN
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module datamem
+# -- Compiling module datamem_testbench
+# 
+# Top level modules:
+# 	datamem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec2_4
+# 
+# Top level modules:
+# 	dec2_4
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec3_8
+# 
+# Top level modules:
+# 	dec3_8
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec5_32
+# 
+# Top level modules:
+# 	dec5_32
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module execution
+# 
+# Top level modules:
+# 	execution
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module hazard_controller
+# 
+# Top level modules:
+# 	hazard_controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_decode
+# 
+# Top level modules:
+# 	instruct_decode
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_fetch
+# 
+# Top level modules:
+# 	instruct_fetch
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instructmem
+# -- Compiling module instructmem_testbench
+# 
+# Top level modules:
+# 	instructmem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mult
+# -- Compiling module shifter
+# -- Compiling module shifter_testbench
+# -- Compiling module mult_testbench
+# 
+# Top level modules:
+# 	shifter_testbench
+# 	mult_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module memory
+# 
+# Top level modules:
+# 	memory
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	mux2_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux8_1
+# 
+# Top level modules:
+# 	mux8_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux32_1
+# 
+# Top level modules:
+# 	mux32_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module program_counter
+# 
+# Top level modules:
+# 	program_counter
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module sign_extender
+# 
+# Top level modules:
+# 	sign_extender
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module top
+# -- Compiling module top_testbench
+# 
+# Top level modules:
+# 	top_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module write_back
+# 
+# Top level modules:
+# 	write_back
+# vsim -lib work -voptargs=\"+acc\" -t 1ps top_testbench 
+# Loading sv_std.std
+# Loading work.top_testbench
+# Loading work.top
+# Loading work.hazard_controller
+# Loading work.instruct_fetch
+# Loading work.adder
+# Loading work.mux2_1
+# Loading work.program_counter
+# Loading work.instructmem
+# Loading work.instruct_decode
+# Loading work.sign_extender
+# Loading work.shifter
+# Loading work.regfile
+# Loading work.dec5_32
+# Loading work.dec2_4
+# Loading work.dec3_8
+# Loading work.mux32_1
+# Loading work.mux8_1
+# Loading work.controller
+# Loading work.D_FF_EN
+# Loading work.D_FF
+# Loading work.execution
+# Loading work.alu
+# Loading work.all_zero
+# Loading work.memory
+# Loading work.datamem
+# Loading work.write_back
+# Loading work.adder_slice
+# Loading work.register
+# Loading work.alu_slice
+# ** Error: (vish-4014) No objects found matching '/top_testbench/dut/hazard_controller/ld_fwd_sel'.
+# Executing ONERROR command at macro ./top_wave.do line 20
+# ** Error: (vish-4014) No objects found matching '/top_testbench/dut/memory/ld_fwd_sel'.
+# Executing ONERROR command at macro ./top_wave.do line 151
+# ** Error: (vish-4014) No objects found matching '/top_testbench/dut/memory/mem_result_temp'.
+# Executing ONERROR command at macro ./top_wave.do line 162
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Running benchmark: ./benchmarks/test02_AddsSubs.arm
+# Read
+# ** Error: Assertion error.
+#    Time: 450 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 550 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 650 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 750 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 850 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 950 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1150 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# Break in Module top_testbench at ./top.sv line 234
+# Simulation Breakpoint: Break in Module top_testbench at ./top.sv line 234
+# MACRO ./runlab.do PAUSED at line 52
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder_slice
+# 
+# Top level modules:
+# 	adder_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module all_zero
+# 
+# Top level modules:
+# 	all_zero
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu_slice
+# 
+# Top level modules:
+# 	alu_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF
+# 
+# Top level modules:
+# 	D_FF
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF_EN
+# 
+# Top level modules:
+# 	D_FF_EN
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module datamem
+# -- Compiling module datamem_testbench
+# 
+# Top level modules:
+# 	datamem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec2_4
+# 
+# Top level modules:
+# 	dec2_4
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec3_8
+# 
+# Top level modules:
+# 	dec3_8
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec5_32
+# 
+# Top level modules:
+# 	dec5_32
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module execution
+# 
+# Top level modules:
+# 	execution
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module hazard_controller
+# 
+# Top level modules:
+# 	hazard_controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_decode
+# 
+# Top level modules:
+# 	instruct_decode
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_fetch
+# 
+# Top level modules:
+# 	instruct_fetch
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instructmem
+# -- Compiling module instructmem_testbench
+# 
+# Top level modules:
+# 	instructmem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mult
+# -- Compiling module shifter
+# -- Compiling module shifter_testbench
+# -- Compiling module mult_testbench
+# 
+# Top level modules:
+# 	shifter_testbench
+# 	mult_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module memory
+# 
+# Top level modules:
+# 	memory
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	mux2_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux8_1
+# 
+# Top level modules:
+# 	mux8_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux32_1
+# 
+# Top level modules:
+# 	mux32_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module program_counter
+# 
+# Top level modules:
+# 	program_counter
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module sign_extender
+# 
+# Top level modules:
+# 	sign_extender
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module top
+# -- Compiling module top_testbench
+# 
+# Top level modules:
+# 	top_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module write_back
+# 
+# Top level modules:
+# 	write_back
+# vsim -lib work -voptargs=\"+acc\" -t 1ps top_testbench 
+# Loading sv_std.std
+# Loading work.top_testbench
+# Loading work.top
+# Loading work.hazard_controller
+# Loading work.instruct_fetch
+# Loading work.adder
+# Loading work.mux2_1
+# Loading work.program_counter
+# Loading work.instructmem
+# Loading work.instruct_decode
+# Loading work.sign_extender
+# Loading work.shifter
+# Loading work.regfile
+# Loading work.dec5_32
+# Loading work.dec2_4
+# Loading work.dec3_8
+# Loading work.mux32_1
+# Loading work.mux8_1
+# Loading work.controller
+# Loading work.D_FF_EN
+# Loading work.D_FF
+# Loading work.execution
+# Loading work.alu
+# Loading work.all_zero
+# Loading work.memory
+# Loading work.datamem
+# Loading work.write_back
+# Loading work.adder_slice
+# Loading work.register
+# Loading work.alu_slice
+# ** Error: (vish-4014) No objects found matching '/top_testbench/dut/hazard_controller/ld_fwd_sel'.
+# Executing ONERROR command at macro ./top_wave.do line 20
+# ** Error: (vish-4014) No objects found matching '/top_testbench/dut/memory/ld_fwd_sel'.
+# Executing ONERROR command at macro ./top_wave.do line 151
+# ** Error: (vish-4014) No objects found matching '/top_testbench/dut/memory/mem_result_temp'.
+# Executing ONERROR command at macro ./top_wave.do line 162
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Running benchmark: ./benchmarks/test03_CbzB.arm
+# Read
+# ** Error: Assertion error.
+#    Time: 450 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1150 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1350 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1550 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1750 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1950 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2150 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2350 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2550 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2850 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2950 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# Break in Module top_testbench at ./top.sv line 234
+# Simulation Breakpoint: Break in Module top_testbench at ./top.sv line 234
+# MACRO ./runlab.do PAUSED at line 52
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder_slice
+# 
+# Top level modules:
+# 	adder_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module all_zero
+# 
+# Top level modules:
+# 	all_zero
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu_slice
+# 
+# Top level modules:
+# 	alu_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF
+# 
+# Top level modules:
+# 	D_FF
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF_EN
+# 
+# Top level modules:
+# 	D_FF_EN
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module datamem
+# -- Compiling module datamem_testbench
+# 
+# Top level modules:
+# 	datamem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec2_4
+# 
+# Top level modules:
+# 	dec2_4
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec3_8
+# 
+# Top level modules:
+# 	dec3_8
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec5_32
+# 
+# Top level modules:
+# 	dec5_32
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module execution
+# 
+# Top level modules:
+# 	execution
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module hazard_controller
+# 
+# Top level modules:
+# 	hazard_controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_decode
+# 
+# Top level modules:
+# 	instruct_decode
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_fetch
+# 
+# Top level modules:
+# 	instruct_fetch
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instructmem
+# -- Compiling module instructmem_testbench
+# 
+# Top level modules:
+# 	instructmem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mult
+# -- Compiling module shifter
+# -- Compiling module shifter_testbench
+# -- Compiling module mult_testbench
+# 
+# Top level modules:
+# 	shifter_testbench
+# 	mult_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module memory
+# 
+# Top level modules:
+# 	memory
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	mux2_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux8_1
+# 
+# Top level modules:
+# 	mux8_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux32_1
+# 
+# Top level modules:
+# 	mux32_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module program_counter
+# 
+# Top level modules:
+# 	program_counter
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module sign_extender
+# 
+# Top level modules:
+# 	sign_extender
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module top
+# -- Compiling module top_testbench
+# 
+# Top level modules:
+# 	top_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module write_back
+# 
+# Top level modules:
+# 	write_back
+# vsim -lib work -voptargs=\"+acc\" -t 1ps top_testbench 
+# Loading sv_std.std
+# Loading work.top_testbench
+# Loading work.top
+# Loading work.hazard_controller
+# Loading work.instruct_fetch
+# Loading work.adder
+# Loading work.mux2_1
+# Loading work.program_counter
+# Loading work.instructmem
+# Loading work.instruct_decode
+# Loading work.sign_extender
+# Loading work.shifter
+# Loading work.regfile
+# Loading work.dec5_32
+# Loading work.dec2_4
+# Loading work.dec3_8
+# Loading work.mux32_1
+# Loading work.mux8_1
+# Loading work.controller
+# Loading work.D_FF_EN
+# Loading work.D_FF
+# Loading work.execution
+# Loading work.alu
+# Loading work.all_zero
+# Loading work.memory
+# Loading work.datamem
+# Loading work.write_back
+# Loading work.adder_slice
+# Loading work.register
+# Loading work.alu_slice
+# ** Error: (vish-4014) No objects found matching '/top_testbench/dut/hazard_controller/ld_fwd_sel'.
+# Executing ONERROR command at macro ./top_wave.do line 20
+# ** Error: (vish-4014) No objects found matching '/top_testbench/dut/memory/ld_fwd_sel'.
+# Executing ONERROR command at macro ./top_wave.do line 151
+# ** Error: (vish-4014) No objects found matching '/top_testbench/dut/memory/mem_result_temp'.
+# Executing ONERROR command at macro ./top_wave.do line 162
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Running benchmark: ./benchmarks/test04_LdurStur.arm
+# Read
+# ** Error: Assertion error.
+#    Time: 450 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 550 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 650 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 850 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# Break in Module top_testbench at ./top.sv line 234
+# Simulation Breakpoint: Break in Module top_testbench at ./top.sv line 234
+# MACRO ./runlab.do PAUSED at line 52
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder_slice
+# 
+# Top level modules:
+# 	adder_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module all_zero
+# 
+# Top level modules:
+# 	all_zero
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu_slice
+# 
+# Top level modules:
+# 	alu_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF
+# 
+# Top level modules:
+# 	D_FF
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF_EN
+# 
+# Top level modules:
+# 	D_FF_EN
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module datamem
+# -- Compiling module datamem_testbench
+# 
+# Top level modules:
+# 	datamem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec2_4
+# 
+# Top level modules:
+# 	dec2_4
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec3_8
+# 
+# Top level modules:
+# 	dec3_8
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec5_32
+# 
+# Top level modules:
+# 	dec5_32
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module execution
+# 
+# Top level modules:
+# 	execution
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module hazard_controller
+# 
+# Top level modules:
+# 	hazard_controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_decode
+# 
+# Top level modules:
+# 	instruct_decode
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_fetch
+# 
+# Top level modules:
+# 	instruct_fetch
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instructmem
+# -- Compiling module instructmem_testbench
+# 
+# Top level modules:
+# 	instructmem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mult
+# -- Compiling module shifter
+# -- Compiling module shifter_testbench
+# -- Compiling module mult_testbench
+# 
+# Top level modules:
+# 	shifter_testbench
+# 	mult_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module memory
+# 
+# Top level modules:
+# 	memory
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	mux2_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux8_1
+# 
+# Top level modules:
+# 	mux8_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux32_1
+# 
+# Top level modules:
+# 	mux32_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module program_counter
+# 
+# Top level modules:
+# 	program_counter
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module sign_extender
+# 
+# Top level modules:
+# 	sign_extender
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module top
+# -- Compiling module top_testbench
+# 
+# Top level modules:
+# 	top_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module write_back
+# 
+# Top level modules:
+# 	write_back
+# vsim -lib work -voptargs=\"+acc\" -t 1ps top_testbench 
+# Loading sv_std.std
+# Loading work.top_testbench
+# Loading work.top
+# Loading work.hazard_controller
+# Loading work.instruct_fetch
+# Loading work.adder
+# Loading work.mux2_1
+# Loading work.program_counter
+# Loading work.instructmem
+# Loading work.instruct_decode
+# Loading work.sign_extender
+# Loading work.shifter
+# Loading work.regfile
+# Loading work.dec5_32
+# Loading work.dec2_4
+# Loading work.dec3_8
+# Loading work.mux32_1
+# Loading work.mux8_1
+# Loading work.controller
+# Loading work.D_FF_EN
+# Loading work.D_FF
+# Loading work.execution
+# Loading work.alu
+# Loading work.all_zero
+# Loading work.memory
+# Loading work.datamem
+# Loading work.write_back
+# Loading work.adder_slice
+# Loading work.register
+# Loading work.alu_slice
+# ** Error: (vish-4014) No objects found matching '/top_testbench/dut/hazard_controller/ld_fwd_sel'.
+# Executing ONERROR command at macro ./top_wave.do line 20
+# ** Error: (vish-4014) No objects found matching '/top_testbench/dut/memory/ld_fwd_sel'.
+# Executing ONERROR command at macro ./top_wave.do line 151
+# ** Error: (vish-4014) No objects found matching '/top_testbench/dut/memory/mem_result_temp'.
+# Executing ONERROR command at macro ./top_wave.do line 162
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Running benchmark: ./benchmarks/test05_Blt.arm
+# Read
+# ** Error: Assertion error.
+#    Time: 450 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 950 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1250 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1650 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# Break in Module top_testbench at ./top.sv line 234
+# Simulation Breakpoint: Break in Module top_testbench at ./top.sv line 234
+# MACRO ./runlab.do PAUSED at line 52
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module adder_slice
+# 
+# Top level modules:
+# 	adder_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module all_zero
+# 
+# Top level modules:
+# 	all_zero
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu_slice
+# 
+# Top level modules:
+# 	alu_slice
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF
+# 
+# Top level modules:
+# 	D_FF
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module D_FF_EN
+# 
+# Top level modules:
+# 	D_FF_EN
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module datamem
+# -- Compiling module datamem_testbench
+# 
+# Top level modules:
+# 	datamem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec2_4
+# 
+# Top level modules:
+# 	dec2_4
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec3_8
+# 
+# Top level modules:
+# 	dec3_8
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dec5_32
+# 
+# Top level modules:
+# 	dec5_32
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module execution
+# 
+# Top level modules:
+# 	execution
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module hazard_controller
+# 
+# Top level modules:
+# 	hazard_controller
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_decode
+# 
+# Top level modules:
+# 	instruct_decode
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instruct_fetch
+# 
+# Top level modules:
+# 	instruct_fetch
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module instructmem
+# -- Compiling module instructmem_testbench
+# 
+# Top level modules:
+# 	instructmem_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mult
+# -- Compiling module shifter
+# -- Compiling module shifter_testbench
+# -- Compiling module mult_testbench
+# 
+# Top level modules:
+# 	shifter_testbench
+# 	mult_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module memory
+# 
+# Top level modules:
+# 	memory
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	mux2_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux8_1
+# 
+# Top level modules:
+# 	mux8_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux32_1
+# 
+# Top level modules:
+# 	mux32_1
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module program_counter
+# 
+# Top level modules:
+# 	program_counter
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module sign_extender
+# 
+# Top level modules:
+# 	sign_extender
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module top
+# -- Compiling module top_testbench
+# 
+# Top level modules:
+# 	top_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module write_back
+# 
+# Top level modules:
+# 	write_back
+# vsim -lib work -voptargs=\"+acc\" -t 1ps top_testbench 
+# Loading sv_std.std
+# Loading work.top_testbench
+# Loading work.top
+# Loading work.hazard_controller
+# Loading work.instruct_fetch
+# Loading work.adder
+# Loading work.mux2_1
+# Loading work.program_counter
+# Loading work.instructmem
+# Loading work.instruct_decode
+# Loading work.sign_extender
+# Loading work.shifter
+# Loading work.regfile
+# Loading work.dec5_32
+# Loading work.dec2_4
+# Loading work.dec3_8
+# Loading work.mux32_1
+# Loading work.mux8_1
+# Loading work.controller
+# Loading work.D_FF_EN
+# Loading work.D_FF
+# Loading work.execution
+# Loading work.alu
+# Loading work.all_zero
+# Loading work.memory
+# Loading work.datamem
+# Loading work.write_back
+# Loading work.adder_slice
+# Loading work.register
+# Loading work.alu_slice
+# ** Error: (vish-4014) No objects found matching '/top_testbench/dut/hazard_controller/ld_fwd_sel'.
+# Executing ONERROR command at macro ./top_wave.do line 20
+# ** Error: (vish-4014) No objects found matching '/top_testbench/dut/memory/ld_fwd_sel'.
+# Executing ONERROR command at macro ./top_wave.do line 151
+# ** Error: (vish-4014) No objects found matching '/top_testbench/dut/memory/mem_result_temp'.
+# Executing ONERROR command at macro ./top_wave.do line 162
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Running benchmark: ./benchmarks/test06_BlBr.arm
+# Read
+# ** Error: Assertion error.
+#    Time: 450 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 850 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 950 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1150 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1650 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2350 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2650 ns  Scope: top_testbench.dut.memory.datamem File: ./datamem.sv Line: 31
+# Break in Module top_testbench at ./top.sv line 234
+# Simulation Breakpoint: Break in Module top_testbench at ./top.sv line 234
+# MACRO ./runlab.do PAUSED at line 52
+add wave -position 2  sim:/top_testbench/dut/hazard_controller/store
+add wave -position 2  sim:/top_testbench/dut/hazard_controller/ReadRegister_MEM
+add wave -position 2  sim:/top_testbench/dut/hazard_controller/ReadRegister2_in_UC
+add wave -position 2  sim:/top_testbench/dut/hazard_controller/ReadRegister1_in
+add wave -position 2  sim:/top_testbench/dut/hazard_controller/ReadRegister2_in
+add wave -position 2  sim:/top_testbench/dut/hazard_controller/WriteRegister_EX
+add wave -position 2  sim:/top_testbench/dut/hazard_controller/WriteRegister_MEM
+add wave -position 2  sim:/top_testbench/dut/hazard_controller/WriteRegister_WB
+add wave -position 2  sim:/top_testbench/dut/hazard_controller/ld_target
+add wave -position 2  sim:/top_testbench/dut/hazard_controller/st_target
+add wave -position 2  sim:/top_testbench/dut/hazard_controller/fwd_a_1_sel_out
+add wave -position 2  sim:/top_testbench/dut/hazard_controller/fwd_a_2_sel_out
+add wave -position 2  sim:/top_testbench/dut/hazard_controller/fwd_b_1_sel_out
+add wave -position 2  sim:/top_testbench/dut/hazard_controller/fwd_b_2_sel_out
+add wave -position 2  sim:/top_testbench/dut/hazard_controller/cbz_fwd
+add wave -position 2  sim:/top_testbench/dut/hazard_controller/st_fwd_sel
+add wave -position 3  sim:/top_testbench/dut/instruct_fetch/clk
+add wave -position 3  sim:/top_testbench/dut/instruct_fetch/reset
+add wave -position 3  sim:/top_testbench/dut/instruct_fetch/addr_sel_in
+add wave -position 3  sim:/top_testbench/dut/instruct_fetch/flush
+add wave -position 3  sim:/top_testbench/dut/instruct_fetch/addr_IF_in
+add wave -position 3  sim:/top_testbench/dut/instruct_fetch/instruct_out
+add wave -position 3  sim:/top_testbench/dut/instruct_fetch/addr_IF_out
+add wave -position 3  sim:/top_testbench/dut/instruct_fetch/addr
+add wave -position 3  sim:/top_testbench/dut/instruct_fetch/next_addr
+add wave -position 3  sim:/top_testbench/dut/instruct_fetch/inc_addr
+add wave -position 3  sim:/top_testbench/dut/instruct_fetch/instruct
+add wave -position 3  sim:/top_testbench/dut/instruct_fetch/instruct_temp
+add wave -position 3  sim:/top_testbench/dut/instruct_fetch/not_flush
+add wave -position 3  sim:/top_testbench/dut/instruct_fetch/next_flush
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/not_clk
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/clk
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/reset
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/RegWrite_in
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/negative
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/zero
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/overflow
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/carry_out
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/cbz_fwd
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/WriteRegister_in
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/instruct_in
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/alu_result_ID_in
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/WriteData_ID_in
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/addr_ID_in
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/store
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/write_enable_ID_out
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/RegWrite_ID_out
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/memtoreg_sel_ID_out
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/flush_out
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/addr_sel_out
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/cntrl_out
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/ReadRegister1_out
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/ReadRegister2_out_UC
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/ReadRegister2_ID_out
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/WriteRegister_ID_out
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/ReadData1_out
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/ReadData2_ID_out
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/alu_src_out
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/addr_ID_out
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/flush
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/RegWrite
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/write_enable
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/br_sel
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/memtoreg_sel
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/alu_addr_sel
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/alu_src_sel
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/special_addr_sel
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/alu_link_sel
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/addr_sel
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/cntrl
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/ReadRegister1
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/ReadRegister2
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/ReadRegister1_out_temp
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/ReadRegister2_out_temp
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/WriteRegister
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/d_addr_raw
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/alu_imm_raw
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/cond_offset_raw
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/br_offset_raw
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/ReadData1
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/ReadData2
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/alu_imm_E
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/d_addr_E
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/alu_addr
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/alu_src
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/br_addr
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/br_offset_S
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/br_offset_US
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/cond_offset_EX
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/br_offset_EX
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/alu_link
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/special_addr
+add wave -position 4  sim:/top_testbench/dut/instruct_decode/cbzfwd_out
+add wave -position 5  sim:/top_testbench/dut/execution/clk
+add wave -position 5  sim:/top_testbench/dut/execution/reset
+add wave -position 5  sim:/top_testbench/dut/execution/RegWrite_EX_in
+add wave -position 5  sim:/top_testbench/dut/execution/write_enable_EX_in
+add wave -position 5  sim:/top_testbench/dut/execution/fwd_a_1_sel_in
+add wave -position 5  sim:/top_testbench/dut/execution/fwd_a_2_sel_in
+add wave -position 5  sim:/top_testbench/dut/execution/fwd_b_1_sel_in
+add wave -position 5  sim:/top_testbench/dut/execution/fwd_b_2_sel_in
+add wave -position 5  sim:/top_testbench/dut/execution/memtoreg_sel_EX_in
+add wave -position 5  sim:/top_testbench/dut/execution/cntrl_in
+add wave -position 5  sim:/top_testbench/dut/execution/WriteRegister_EX_in
+add wave -position 5  sim:/top_testbench/dut/execution/ReadRegister2_EX_in
+add wave -position 5  sim:/top_testbench/dut/execution/ReadData1_in
+add wave -position 5  sim:/top_testbench/dut/execution/ReadData2_EX_in
+add wave -position 5  sim:/top_testbench/dut/execution/alu_src_in
+add wave -position 5  sim:/top_testbench/dut/execution/WriteData_EX_in
+add wave -position 5  sim:/top_testbench/dut/execution/write_enable_EX_out
+add wave -position 5  sim:/top_testbench/dut/execution/RegWrite_EX_out
+add wave -position 5  sim:/top_testbench/dut/execution/negative
+add wave -position 5  sim:/top_testbench/dut/execution/zero
+add wave -position 5  sim:/top_testbench/dut/execution/overflow
+add wave -position 5  sim:/top_testbench/dut/execution/carry_out
+add wave -position 5  sim:/top_testbench/dut/execution/memtoreg_sel_EX_out
+add wave -position 5  sim:/top_testbench/dut/execution/WriteRegister_EX_out
+add wave -position 5  sim:/top_testbench/dut/execution/ReadRegister2_EX_out
+add wave -position 5  sim:/top_testbench/dut/execution/ReadData2_EX_out
+add wave -position 5  sim:/top_testbench/dut/execution/alu_result_EX_out
+add wave -position 5  sim:/top_testbench/dut/execution/fwd_a_1
+add wave -position 5  sim:/top_testbench/dut/execution/fwd_b_1
+add wave -position 5  sim:/top_testbench/dut/execution/fwd_a_2
+add wave -position 5  sim:/top_testbench/dut/execution/fwd_b_2
+add wave -position 5  sim:/top_testbench/dut/execution/alu_result
+add wave -position 6  sim:/top_testbench/dut/memory/clk
+add wave -position 6  sim:/top_testbench/dut/memory/reset
+add wave -position 6  sim:/top_testbench/dut/memory/write_enable_MEM_in
+add wave -position 6  sim:/top_testbench/dut/memory/RegWrite_MEM_in
+add wave -position 6  sim:/top_testbench/dut/memory/memtoreg_sel_MEM_in
+add wave -position 6  sim:/top_testbench/dut/memory/st_fwd_sel
+add wave -position 6  sim:/top_testbench/dut/memory/WriteRegister_MEM_in
+add wave -position 6  sim:/top_testbench/dut/memory/ReadData2_MEM_in
+add wave -position 6  sim:/top_testbench/dut/memory/alu_result_MEM_in
+add wave -position 6  sim:/top_testbench/dut/memory/RegWrite_MEM_out
+add wave -position 6  sim:/top_testbench/dut/memory/memtoreg_sel_MEM_out
+add wave -position 6  sim:/top_testbench/dut/memory/WriteRegister_MEM_out
+add wave -position 6  sim:/top_testbench/dut/memory/alu_result_MEM_out
+add wave -position 6  sim:/top_testbench/dut/memory/mem_result_out
+add wave -position 6  sim:/top_testbench/dut/memory/mem_result
+add wave -position 6  sim:/top_testbench/dut/memory/ReadData2_MEM_out
+add wave -position 6  sim:/top_testbench/dut/memory/write_data
+add wave -position 7  sim:/top_testbench/dut/write_back/clk
+add wave -position 7  sim:/top_testbench/dut/write_back/reset
+add wave -position 7  sim:/top_testbench/dut/write_back/memtoreg_sel_WB_in
+add wave -position 7  sim:/top_testbench/dut/write_back/mem_result_in
+add wave -position 7  sim:/top_testbench/dut/write_back/alu_result_WB_in
+add wave -position 7  sim:/top_testbench/dut/write_back/WriteData_out
+add wave -position 7  sim:/top_testbench/dut/write_back/memtoreg
+add wave -position end  sim:/top_testbench/dut/instruct_decode/regfile/ReadData1
+add wave -position end  sim:/top_testbench/dut/instruct_decode/regfile/ReadData2
+add wave -position end  sim:/top_testbench/dut/instruct_decode/regfile/WriteData
+add wave -position end  sim:/top_testbench/dut/instruct_decode/regfile/ReadRegister1
+add wave -position end  sim:/top_testbench/dut/instruct_decode/regfile/ReadRegister2
+add wave -position end  sim:/top_testbench/dut/instruct_decode/regfile/WriteRegister
+add wave -position end  sim:/top_testbench/dut/instruct_decode/regfile/RegWrite
+add wave -position end  sim:/top_testbench/dut/instruct_decode/regfile/clk
+add wave -position end  sim:/top_testbench/dut/instruct_decode/regfile/write_enable
+add wave -position end  sim:/top_testbench/dut/instruct_decode/regfile/reg_out
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/Andrew Hartman/cse469/lab4/top_wave.do}
